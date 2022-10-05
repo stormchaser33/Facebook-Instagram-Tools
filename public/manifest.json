@@ -1,0 +1,28 @@
+{
+    "short_name": "Fabin Toolkit",
+    "name": "Fabin Toolkit",
+    "version": "1.0.0",
+    "description": "Tools for Facebook and Instagram",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background-worker.js"
+    },
+    "icons": {
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "notifications",
+        "cookies",
+        "webRequest",
+        "storage",
+        "unlimitedStorage",
+        "tabs",
+        "activeTab",
+        "tabs",
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "*://*.facebook.com/api/graphql*"
+    ],
+    "action": {}
+}

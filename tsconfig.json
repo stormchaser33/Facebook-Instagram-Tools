@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "module": "es6",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "removeComments": true,
+        "paths": {
+            "@helpers/*": [
+                "src/dashboard/helpers/*"
+            ],
+            "@hooks/*": [
+                "src/dashboard/hooks/*"
+            ],
+            "@components/*": [
+                "src/dashboard/components/*"
+            ],
+            "@pages/*": [
+                "src/dashboard/pages/*"
+            ],
+            "@assets/*": [
+                "src/dashboard/assets/*"
+            ],
+            "@redux/*": [
+                "src/dashboard/redux/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
