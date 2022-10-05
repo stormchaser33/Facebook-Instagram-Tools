@@ -25,7 +25,7 @@ After running the above commands, we will `dist/` folder. Go to the chrome exten
 
 ## Authors
 
-- [@jamesngdev](https://www.github.com/jamesngdev)
+- [@final1003](https://www.github.com/final1003)
 
 
 ## Demo
