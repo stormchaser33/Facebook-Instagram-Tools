@@ -1,5 +1,5 @@
 
-# Fabin Toolkit
+# Facebook and Instagram Tools
 
 Fabin toolkit is a Chrome Extension that helps you stalk/analyze your friends on Facebook. Another, it combines many tools to help you use Facebook easily.
 
